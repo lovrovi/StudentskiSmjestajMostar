@@ -1,0 +1,132 @@
+.admin-ad{
+    width: 95%;
+    height: 42vh;
+    display: flex;
+    background: lightgrey;
+    margin: 20px auto;
+}
+.title-images{
+    margin: 10px;
+    width: 30%;
+}
+.admin-ad-title{
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    color: orange;
+}
+.admin-ad-images{
+    display: flex;
+    height: 30vh;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+.admin-ad-image{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.admin-ad-image img{
+    width: 100px;
+    height: 100px;
+}
+
+.admin-ad-info{
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+}
+.admin-ad-info p{
+    margin-bottom: 10px;
+    height: 40px;
+    
+}
+
+.admin-ad-desc{
+    margin: 10px;
+    border: 2pt solid orange;
+    height: 30vh;
+    width: 90%;
+   
+}
+.desc-button{
+    width: 45%;
+    
+}
+
+.accept-button{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.accept-button button{
+    width: 90px;
+    height: 40px;
+    background-color:  #ffa64d;
+    border: 2pt solid whitesmoke;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+    outline: none;
+}
+
+.accept-button button:hover{
+    background-color: whitesmoke;
+    color:  #ffa64d;
+    border-color:  #ffa64d;
+}
+
+@media screen and (max-width: 1000px) {
+    .admin-ad-info{
+        overflow-y: scroll;
+    }
+}
+@media screen and (max-width: 600px) {
+    .admin-ad{
+        flex-direction: column;
+        height: 80vh;
+        padding: 5px;
+        align-items: center;
+    }
+    .title-images{
+        width: 90%;
+        
+    }
+    .admin-ad-images{
+        overflow-x: scroll;
+        overflow-y: auto;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        height: 20vh;
+    }
+    .admin-ad-info{
+        justify-content: space-evenly;
+        width: 90%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow-y: hidden;
+        justify-content: center;
+    }
+    .admin-ad-info p{
+        margin: 10px;
+        height:30px;
+    }
+    .desc-button{
+        width: 90%;
+    }
+    .admin-ad-desc{
+        height:20vh;
+    }
+}
+@media screen and (max-width: 330px) {
+    .admin-ad-info{
+        overflow-y: scroll;
+    }
+}
+

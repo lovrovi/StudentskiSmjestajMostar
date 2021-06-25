@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/projekti/fsre_rwa/2020/g16/static/css/main.e87aa04b.chunk.css",
+    "main.js": "/projekti/fsre_rwa/2020/g16/static/js/main.913c1ca6.chunk.js",
+    "main.js.map": "/projekti/fsre_rwa/2020/g16/static/js/main.913c1ca6.chunk.js.map",
+    "runtime-main.js": "/projekti/fsre_rwa/2020/g16/static/js/runtime-main.0ee5f371.js",
+    "runtime-main.js.map": "/projekti/fsre_rwa/2020/g16/static/js/runtime-main.0ee5f371.js.map",
+    "static/css/2.b57b7cfd.chunk.css": "/projekti/fsre_rwa/2020/g16/static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.65d50b4d.chunk.js": "/projekti/fsre_rwa/2020/g16/static/js/2.65d50b4d.chunk.js",
+    "static/js/2.65d50b4d.chunk.js.map": "/projekti/fsre_rwa/2020/g16/static/js/2.65d50b4d.chunk.js.map",
+    "static/js/3.a5cf4339.chunk.js": "/projekti/fsre_rwa/2020/g16/static/js/3.a5cf4339.chunk.js",
+    "static/js/3.a5cf4339.chunk.js.map": "/projekti/fsre_rwa/2020/g16/static/js/3.a5cf4339.chunk.js.map",
+    "index.html": "/projekti/fsre_rwa/2020/g16/index.html",
+    "static/css/2.b57b7cfd.chunk.css.map": "/projekti/fsre_rwa/2020/g16/static/css/2.b57b7cfd.chunk.css.map",
+    "static/css/main.e87aa04b.chunk.css.map": "/projekti/fsre_rwa/2020/g16/static/css/main.e87aa04b.chunk.css.map",
+    "static/js/2.65d50b4d.chunk.js.LICENSE.txt": "/projekti/fsre_rwa/2020/g16/static/js/2.65d50b4d.chunk.js.LICENSE.txt",
+    "static/media/details-4.f2053654.jpeg": "/projekti/fsre_rwa/2020/g16/static/media/details-4.f2053654.jpeg",
+    "static/media/loading-arrow.dd29210f.gif": "/projekti/fsre_rwa/2020/g16/static/media/loading-arrow.dd29210f.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ee5f371.js",
+    "static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.65d50b4d.chunk.js",
+    "static/css/main.e87aa04b.chunk.css",
+    "static/js/main.913c1ca6.chunk.js"
+  ]
+}

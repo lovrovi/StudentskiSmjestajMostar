@@ -1,0 +1,123 @@
+.my-ad{
+    width: 70%;
+    height: 58vh;
+    margin: 60px auto;
+    box-shadow: 0 0 10px 7px #f88b1e;
+}
+
+.my-ad-unapproved{
+    width: 70%;
+    height: 50vh;
+    margin: 60px auto;
+    opacity: .65;
+    box-shadow: 0 0 10px 7px gray;
+}
+
+
+.my-ad-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    height: 17vh;
+    overflow-x: scroll;
+}
+.my-ad-image{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.my-ad-image img{
+    width: 100%;
+    height: 100%;
+}
+.my-ad-title{
+    background-color: royalblue;
+    height: 5vh;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: capitalize;
+
+}
+
+.my-ad-info{
+    background-color: royalblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 20vh;
+}
+.my-ad-info p{
+    width: 30%;
+    font-size: medium;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 5px 5px;
+}
+
+.my-ad-desc{
+    padding: 10px;
+    margin-top: 3px;
+    height: 5vh;
+    width: 90%;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.edit-myads{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 50px;
+   
+}
+.edit-myads button{
+    height: 30px;
+    margin: 10px;
+    width: 50px;
+    background-color: #ffa64d;
+    border: 2pt solid whitesmoke;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+    outline: none;
+    padding: 5px;
+}
+.edit-myads button:hover{
+    background-color: whitesmoke;
+    color:  #ffa64d;
+    border-color:  #ffa64d;
+}
+
+@media screen and (max-width: 1157px) {
+    .my-ad-images{
+        justify-content: left;
+    }
+}
+@media screen and (max-width: 600px) {
+    .my-ad{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .my-ad-info{
+        overflow-y: scroll;
+    }
+    .my-ad-info p{
+        width: 80%;
+        font-size: small;
+    }
+}
+@media screen and (max-width: 320px) {
+    .my-ad{
+        height: 65vh;
+    }
+    .my-ad-images{
+        height: 20vh;
+    }
+}
+
